@@ -1,0 +1,2 @@
+ALTER TABLE parking_spot
+    ADD COLUMN version BIGINT NOT NULL DEFAULT 0;
